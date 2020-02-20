@@ -11,6 +11,7 @@ For each question:
 (1)Wirte down your intuitions about the question(When you first read the question, don't rush straight to solve it,take a minute to think about what's your feeling when you first read this problem ,how do you want to solve this problem,In how many ways can you solve this problems and which method could be the best one, what outcomes are you expecting to get,etc.);  
 
 (2)Write down the patterns you recognized in this problems according to what you have learnt and experienced, do these problems have some particular common patterns? Can you solve the problems more efficiently with recognization of these patterns?  
+
 (3)Write down how others say about these questions and how will they solve these problems if you have partners or instuctors on this project.With their information, can you solve these problems faster or more efficiently?  
 
 # Questions
