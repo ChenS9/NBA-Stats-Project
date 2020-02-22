@@ -17,7 +17,7 @@ For each question:
 # Questions
 1.Find the experience years and university of top3  players in each team who has the top 3 highest salary in Season 2017-2018.  
 
-2.Find the player with the most three points made in each team in the year of 2018.  
+2.Find the player with the most three points made in each team in the year of 2017.  
 
 3.Find out the free throw made by each team in which the player has the most free throw made in each team.  
 
