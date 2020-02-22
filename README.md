@@ -25,5 +25,5 @@ For each question:
 
 5.Find out the sum of the experience years of each player in each team, which won the game more than lost the game. 
 
-6. Draw a ER-Diagram of four tables.
+6.Draw a ER-Diagram of four tables.
 
