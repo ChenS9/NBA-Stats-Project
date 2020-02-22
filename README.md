@@ -15,7 +15,7 @@ For each question:
 (3)Write down how others say about these questions and how will they solve these problems if you have partners or instuctors on this project.With their information, can you solve these problems faster or more efficiently?  
 
 # Questions
-1.Find the top3  players in each team who has the top 3 highest salary in Season 2017-2018.  
+1.Find the experience years and university of top3  players in each team who has the top 3 highest salary in Season 2017-2018.  
 
 2.Find the player with the most three points made in each team.  
 
