@@ -21,7 +21,9 @@ For each question:
 
 3.Find out the free throw made by each team in which the player has the most free throw made in each team.  
 
-4.Find out the sum of the experience years of each player in each team only for teams that have won more than 5 games.   
+4.Draw a RA plan and do cardinality estimation on finding out the sum of the experience years of each player in each team only for teams that have won more than 5 games.   
 
 5.Find out the sum of the experience years of each player in each team, which won the game more than lost the game.  
+
+6. Draw a ER-Diagram of four tables.
 
