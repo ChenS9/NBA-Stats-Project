@@ -19,7 +19,7 @@ For each question:
 
 2.Find the player with the most three points made in each team in the year of 2017.  
 
-3.Find out the free throw made by each team in which the player has the most free throw made in each team.  
+3.Find out the free throw made by each team in which the player has the most free throw made in each team in 2017.  
 
 4.Draw a RA plan and do cardinality estimation on finding out the sum of the experience years of each player in each team only for teams that have won more than 5 games.   
 
