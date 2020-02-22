@@ -1,5 +1,5 @@
 # NBA-Stats-Project
-This project implements SQL queries, cardinality estimation and ER-Diagram, using 4 NBA stats datasets.
+This project implements SQL queries, cardinality estimation and ER-Diagram, using 5 NBA stats datasets.
 
 # Introduction
 This project contains four datasets, providing us with information about personal information and performance of each player and the performance of NBA teams.
@@ -25,5 +25,5 @@ For each question:
 
 5.Find out the sum of the experience years of each player in each team, which won the game more than lost the game. 
 
-6.Draw a ER-Diagram of four tables.
+6.Draw a ER-Diagram of five tables.
 
