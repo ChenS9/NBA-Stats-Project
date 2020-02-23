@@ -21,7 +21,7 @@ For each question:
 
 3.Find out the times of win and lose in  of teams in which the sum of free throw made by each player greater than 200 from 2013-2017, the output must be the whole team name instead of the shortened form.
 
-4.Draw a RA plan and do cardinality estimation on finding out the sum of the experience years of each player in each team only for teams that have won more than 5 games.   
+4.Draw a RA plan and do cardinality estimation on finding out the sum of the experience years of each player in each team only for teams that have won more than 5 games in the year of 2017.   
 
 5.Find out the experience years of each player in each team, which won the game more than lost the game in season2016-17. 
 
