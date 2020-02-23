@@ -12,8 +12,3 @@ salary AS s
 on s.Player = pi.name
 ORDER BY salaries DESC
 limit 3;
-
---intuition :join first
---order by
---top three
---scientific notation: change the ORDER
