@@ -1,23 +1,17 @@
-
 Question 1
 (1) Intuitions: When I read this question, the very first thing that I noticed that I need to join two tables because the information I need is separated in two different tables. But IÕm not sure what kind of join should I use in this question at this time. And I expected my output be 3 rows because I want to top 3 salaries. And in this question, I can use two ways to make it, the first one is that I can use the Òtop 3Ó function to select the top 3 salaries, the second way is that I can sort the salaries in a descent way then I use Òlimit 3Ó function to get the output. After I explored the datasets, I think left join could be the best in this problem because I want to keep all the tuples in player_info table.
 (2) Patterns: This kind of question is pretty common in my past learning experiences of SQL, from my previous experience, in the Òfind out the top xÓ question, I usually sort them in an order then use ÒlimitÓ query to solve it. For the join part, we need to make sure that we join the right tables that contain the information we want. WhatÕs more important is that I need to be very careful about the inner join, left join, right join and full join because the results can be totally different when I use the different join.
-
 Question 2
 (1) Intuitions: To find the most one, I need to use Max (), ORDER BY, GROUP BY, and the output of the query should be one row. 
 (2) Patterns: This question is similar to the first one, they are the same kind of question except the join and aggregation, I donÕt need to consider join in this question, but I need to be careful about the aggregation. When it comes to aggregation, we need to know on which element we want to aggregate and by which element we group. Actually, I found that when the description is Òper/eachÓ, at the most time, we should group on that. So in this question, I was asked to find out the most 3PA in Òeach teamÓ, so I group by team.
 (3) Communication: In this question, I implement the aggregation in HAVING query. I talked with my friend, when she said she would use MAX () in the SELECT query instead of HAVING query. It turned out that the outputs are same. I think it is because HAVING is a selection operator after aggregation.
-
-
 Question 3
 (1) Intuitions: I definitely need join, subquery and aggregation in this question. To make the query easier, I think using WITH to build a temporary table will be better. 
 (2) Patterns: When there are complex join and subqueries, we can use WITH query to build a temporary table, which, from my experience, can make our query organizable and easier. I usually put the complex query in the WITH query.
 (3) Communication: My partner reminds me that temporary tables can bring me a lot of troubles if I manipulate the table with insert, delete or update in user-defined function. Besides, building a temporary table could make the process of running the query slow down.
-
 Question 4
 (1) Intuitions:  In this question, when I read Òeach player in each teamÓ, then my first thought was that the result of cardinality estimation should smaller than the number of distinct player and the number of the distinct team. And I think I should check how many distinct players and how many distinct teams at first. I need to join four tables, and aggregation query and subqueries. WhatÕs more, there is a cardinality estimation on range (the times of win less than 5), which reminded me of the equation to calculate the cardinality estimation. T(op) *(Val Ð Min) / (Max Ð Min)
 (2) Patterns: In this question, I need to join four tables and I need to use subqueries. So in this kind of question, I can join the first two or three tables using WITH query to build a temporary table, or I can use WITH query to join first two tables and include subqueries in it. WhatÕs more, in this kind of questions, I need to be very carefully about the GROUP BY, I need to be very clear and confident about on which element I should group by and in which join I should do the group by.
-
 Question 5
 (1) Intuitions: This question is pretty similar as the question 4, so the frame of the query should be similar. But this time I chose to write the aggregation part in the WITH and write all the join and subqueries in the main part. I want to find the execution differences between these two different ways. However, it turned out that the execution of the speed of these two ways are the same.
 (2) Patterns: (The same as question 4)
@@ -25,7 +19,6 @@ Question 5
 a. The datasets I used are not so large
 b. The joins are not too complex, so it takes short time to execute them
 c. The logic is clear so that itÕs easy for computer to catch the logic
-
 Question 6
 (1) Intuition: The ER Diagram is used to show the relationship between each table, so I need to find the relationship between each table and figure out how do they connect to each other (many-to-one, one-to-many, one-to-one, many-to-many). And my first gut is that if two tables have same attribute, then there should be a relationship between these two tables.
 (2) Patterns: To draw ER Diagram, the first thing I need to do is to fully explore all the datasets. I found a pattern to dram ERD: first, I can start with on dataset, and then look at the rest of the dataset one by one and ask myself ÒDoes this dataset have relationship with that oneÓ and I keep doing this until I go over all the datasets. Second, I will find the primary key and foreign key of each dataset. Third, for those datasets are related to others, I will ask myself Ò how do they connect to each other?Ó 
