@@ -1,10 +1,10 @@
-# NBA-Stats-Project
+## NBA-Stats-Project
 This project implements SQL queries, cardinality estimation and ER-Diagram, using 5 NBA stats datasets.
 
-# Introduction
+## Introduction
 This project contains four datasets, providing us with information about personal information and performance of each player and the performance of NBA teams.
 
-# Project Details
+## Project Details
 In this project, you will write SQL queries to answer some questions, you will draw a RA plan and do the cardinality estimation on a particular question, and you will draw a ER-Diagram to connect four tables. 
 
 For each question:
@@ -14,7 +14,7 @@ For each question:
 
 (3)Write down how others say about these questions and how will they solve these problems if you have partners or instuctors on this project.With their information, can you solve these problems faster or more efficiently?  
 
-# Questions
+## Questions
 1.Find the experience years and university of top3  players in each team who has the top 3 highest salary in Season 2017-2018.  
 
 2.Find the player with the most three points made in each team in the year of 2017.  
