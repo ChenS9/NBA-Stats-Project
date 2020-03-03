@@ -1,10 +1,5 @@
 .headers on
-.mode csv
-.import /Users/chensong/UW/2020winter/CSE414/NBA-Stats-Project/NBA_data/NBA_season1718_salary.csv salary
-.import /Users/chensong/UW/2020winter/CSE414/NBA-Stats-Project/NBA_data/nba_team_stats_00_to_18.csv team_stats
-.import /Users/chensong/UW/2020winter/CSE414/NBA-Stats-Project/NBA_data/player_data.csv player_info
-.import /Users/chensong/UW/2020winter/CSE414/NBA-Stats-Project/NBA_data/Seasons_Stats.csv player_stats
-.import /Users/chensong/UW/2020winter/CSE414/NBA-Stats-Project/NBA_data/TeamNames.csv team_names
+.open nba.db
 
 WITH win_lose AS
 (SELECT TEAM,SUM(W) AS total_win,SUM(L) AS total_lose
