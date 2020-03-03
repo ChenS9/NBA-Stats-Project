@@ -1,6 +1,9 @@
 ## NBA-Stats-Project
 This project implements SQL queries, cardinality estimation and ER-Diagram, using 5 NBA stats datasets.
 
+To run this project's code, run `sqlite3` in the `SQL_CODE` directory and execute `.read 00-import-data.sql`.
+Then `.read` the desired SQL question file names.
+
 ## Introduction
 This project contains four datasets, providing us with information about personal information and performance of each player and the performance of NBA teams.
 
