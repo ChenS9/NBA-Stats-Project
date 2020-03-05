@@ -5,7 +5,7 @@ To run this project's code, run `sqlite3` in the `SQL_CODE` directory and execut
 Then `.read` the desired SQL question file names.
 
 ## Introduction
-This project contains four datasets, providing us with information about personal information and performance of each player and the performance of NBA teams.
+This project contains f datasets, providing us with information about personal information and performance of each player and the performance of NBA teams.
 
 ## Project Details
 In this project, you will write SQL queries to answer some questions, you will draw a RA plan and do the cardinality estimation on a particular question, and you will draw a ER-Diagram to connect four tables. 
