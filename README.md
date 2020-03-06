@@ -1,11 +1,13 @@
 ## NBA-Stats-Project
-This project implements SQL queries, cardinality estimation and ER-Diagram, using 5 NBA stats datasets.
+This project implements SQL queries, cardinality estimation and ER-Diagram, using 5 NBA stats datasets.  
+  Data sources:https://www.kaggle.com/drgilermo/nba-players-stats#
+            https://www.kaggle.com/mharvnek/nba-team-stats-00-to-18
 
 To run this project's code, run `sqlite3` in the `SQL_CODE` directory and execute `.read 00-import-data.sql`.
 Then `.read` the desired SQL question file names.
 
 ## Introduction
-This project contains four datasets, providing us with information about personal information and performance of each player and the performance of NBA teams.
+This project contains five datasets, providing us with information about personal information and performance of each player and the performance of NBA teams.
 
 ## Project Details
 In this project, you will write SQL queries to answer some questions, you will draw a RA plan and do the cardinality estimation on a particular question, and you will draw a ER-Diagram to connect four tables. 
